@@ -1,0 +1,29 @@
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a :hover {
+    color: blue;
+}
+
+.navbar {
+    display : flex;
+    justify-content: space-around;
+    padding-top: 10px;
+    align-content: center;
+    box-shadow: 0 3px black;
+}
+.bar-items {
+    display : flex;
+    min-width: 60vh;
+    justify-content: space-around;
+    align-content: center;
+}
+
+.nav-right-item {
+    display: flex;
+    min-width: 25vh;
+    justify-content: space-around;
+    align-content: center;
+}
