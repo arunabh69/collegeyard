@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=STIX+Two+Text&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+* {
+    /*
+    font-family: "STIX Two Text", serif;
+    font-weight: 400;
+    */
+    font-family: "Roboto Slab", serif;
+    font-weight: 350;
+    font-optical-sizing: auto;
+}
+
+#paraImg {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 500px;
+    opacity: 90%;
+}
+
